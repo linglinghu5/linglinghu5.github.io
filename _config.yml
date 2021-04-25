@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 零零虎
+title: 永远相信美好的事情即将发生
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: 零零虎
 language: en
 timezone: ''
 
@@ -102,4 +102,7 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/linglinghu5/linglinghu5.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
+  branch: master # 默认使用 master 分支
+  message: Update Hexo Static Content # 你可以自定义此次部署更新的说明
